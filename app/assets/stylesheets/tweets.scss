@@ -13,6 +13,12 @@
     }
 }
 
-.notification:not(:last-child) {
+.notification.is-primary.global-notification,
+.notification.is-danger.global-notification {
     margin-bottom: 0;
+}
+
+.button, .control {
+    align-self: center;
+    margin: 0 0.5rem;
 }
