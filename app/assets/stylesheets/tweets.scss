@@ -1,0 +1,18 @@
+// Place all the styles related to the Tweets controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.navbar-brand .title {
+    color: #fff;
+}
+
+.image {
+    border-radius: 50%;
+    img {
+        border-radius: 50%;
+    }
+}
+
+.notification:not(:last-child) {
+    margin-bottom: 0;
+}
