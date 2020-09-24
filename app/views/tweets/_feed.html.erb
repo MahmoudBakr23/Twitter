@@ -24,6 +24,8 @@
                     <small> <%= tweet.user.username %> </small><br />
                     <p><%= tweet.tweet %></p>
                 </div>
+                
+                <% if user_signed_in? %>
                 <nav class="level">
                     <div class="level-left is-mobile">
                         <%= link_to  tweet, class: "level-item" do %>
@@ -36,7 +38,8 @@
                             <span class="icon"><i class="fa fa-trash-o" aria-hidden="true"></i></span>
                         <% end %>
                     </div>
-                </nav>
+                  </nav>
+                <% end %>
             </div>
         </article>
     </div>
